@@ -1,5 +1,5 @@
-LIMIT ?= 2115
-PIPE_HEAD_LIMIT ?= | head -$(LIMIT)
+LIMIT ?= # 2115
+PIPE_HEAD_LIMIT ?= # | head -$(LIMIT)
 
 all:
 	rm -rf build
